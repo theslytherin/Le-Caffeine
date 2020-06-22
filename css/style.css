@@ -8,10 +8,12 @@
     src: url(font/Great_Wishes.otf);
  
   }
-  
+  .ex1{
+    background-color: #000000 ;
+  }
   
   html,body{
-  background-color: #000000 ;
+  
   height: 100vh;
   width: 100vw;
   font-family: 'myFirstFont', sans-serif;
@@ -143,7 +145,17 @@ html {
   position: absolute;
   bottom: 0;
 }
+.ex2{
 
+background-image: url(images/pic2.jpg);
+height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+}
 .left-text-con,
 .right-text-con {
   position: absolute;
@@ -223,6 +235,27 @@ color: #039be5;;
 }
 .welcome-section .content-wrap .fly-in-text li:last-child {
   margin-right: 0;
+}
+
+.content{
+  width: 100%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(images/pic2.jpg);
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1.title{
+  text-align: center;
+  padding-top: 45vh;
+  color: white;
+  font-size: 100px;
+  font-family: myFirstFont;
+  font-weight: normal;
 }
 .welcome-section .content-wrap .enter-button {
   display: block;
