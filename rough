@@ -1,0 +1,14 @@
+function revealDivInTime(id, time) {
+  var div = document.getElementById(id);
+  if (div) {
+    setTimeout(function() {
+      removeClass(div, "hidden");
+    }, time);
+  }
+}
+
+window.onload = function() {
+    revealDivInTime("two", 5300);
+   // revealDivInTime("two", 5000);
+    
+  }
